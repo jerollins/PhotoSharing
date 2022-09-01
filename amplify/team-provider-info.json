@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-photosharing-dev-170755-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654113585549:role/amplify-photosharing-dev-170755-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654113585549:role/amplify-photosharing-dev-170755-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-photosharing-dev-170755-deployment",
+      "UnauthRoleName": "amplify-photosharing-dev-170755-unauthRole",
+      "StackName": "amplify-photosharing-dev-170755",
+      "StackId": "arn:aws:cloudformation:us-east-1:654113585549:stack/amplify-photosharing-dev-170755/27b02b40-2a3a-11ed-970f-0e55e2c9e70f",
+      "AmplifyAppId": "dv97ey2oqwp9d"
+    },
+    "categories": {
+      "auth": {
+        "photosharingc17d2ac3": {}
+      }
+    }
+  }
+}
