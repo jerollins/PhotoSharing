@@ -2,12 +2,12 @@ type User @model @auth(rules: [{allow: public}]) {
   id: ID!
   username: String!
   profilePic: String!
-  posts: [Post] @hasMany(indexName: "byUser", fields: ["id"])
+  posts: [Post] @hasMany
 }
 
 type Post @model @auth(rules: [{allow: public}]) {
   id: ID!
-  userId: ID! @index(name: "byUser")
+  userId: ID!
   postBody: String!
   pictureKey: String!
   createdAt: AWSDateTime!
